@@ -50,4 +50,4 @@ printf "${YEL}TrImLy has optimized your storage device(s) for faster I/O operati
 printf "\n"
 exit
 
-
+# Thanks to Ted Larson for motivating me to make this and JCloud for fun chitchat.
