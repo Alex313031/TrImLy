@@ -1,0 +1,7 @@
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly manifestVersion='1.0'>
+<assemblyIdentity name="TrImLy" processorArchitecture="AMD64" version="1.0.1.0" type="CrOS"/>
+<description>fstrim automator and defrag script for ChomiumOS</description>
+  <trustInfo xmlns="chromium.org">
+  </trustInfo>
