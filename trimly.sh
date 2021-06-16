@@ -50,4 +50,5 @@ printf "${YEL}TrImLy has optimized your storage device(s) for faster I/O operati
 printf "\n"
 exit
 
-# Thanks to Ted Larson for motivating me to make this and JCloud for fun chitchat.
+# Thanks to Ted Larson for motivating me to make this, my fellow nerd dad for too much to list here, and JCloud for fun chitchat.
+# Ted Larson and JCloud are users on the CloudReady user forums.
