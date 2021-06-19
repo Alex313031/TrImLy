@@ -1,4 +1,4 @@
-
+# TrImLy
 --Version History--
 
  0.5 Updated partition numbers to reflect correct layouts.
@@ -17,4 +17,4 @@
  0.1 First release (not uploaded)
      -Writen on cloudready with Text and Quantum code editors from web store.
 
- --------------------------------
+ ----------------------------------------------------------------
