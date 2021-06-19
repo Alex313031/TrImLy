@@ -1,0 +1,18 @@
+
+--Version History--
+
+ 0.5 Updated partition numbers to reflect correct layouts.
+     -Added cros_90_dev and moved original trimly.sh to it
+
+ 0.4 Made trim conditional (this release will stay in cros_pre_90)
+
+ 0.3 Cleaned up stuff & added coloured text and comments.
+     -Thank yous and \n (new line characters) added.
+
+ 0.2 Added comments, made defrag conditional. (first actual upload)
+     -Added manifest.xml for possible future use.
+
+ 0.1 First release (not uploaded)
+     -Writen on cloudready with Text and Quantum code editors from web store.
+
+ ----------------
