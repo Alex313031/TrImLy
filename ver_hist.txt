@@ -3,7 +3,7 @@
 
  0.5 Updated partition numbers to reflect correct layouts.
      -Added cros_90_dev dir and moved original trimly.sh to it.
-     -Code refactoring and comments and cleanup.
+     -Code refactoring, more comments and cleanup.
 
  0.4 Made trim conditional (this release will stay in cros_pre_90)
      -Backported refactoring and comments from 0.5.
