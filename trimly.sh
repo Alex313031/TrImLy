@@ -15,7 +15,7 @@ printf "\n"
 
 printf "${RED}== TrImLy - Your fstrim automator and defrag script for ChomiumOS ==${NC}\n"
 printf "\n"
-printf "Note: This script must be made placed in /usr/local/bin,\n made executable with 'sudo chmod +x trimly.sh',\n and run with sudo (root) priveleges.\n"
+printf "Note: This script must be placed in /usr/local/bin,\n made executable with 'sudo chmod +x trimly.sh',\n and run with sudo (root) priveleges.\n"
 printf "\n"
 
 # conditional defrag (*will not work entirely on bind mounts used on /)
