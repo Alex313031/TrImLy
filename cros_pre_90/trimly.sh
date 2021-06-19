@@ -15,7 +15,7 @@ printf "\n"
 
 printf "${RED}== TrImLy - Your fstrim automator and defrag script for ChomiumOS ==${NC}\n"
 printf "\n"
-printf "Note: This script must be made placed in /usr/local/bin,\n made executable with 'sudo chmod +x trimly.sh',\n and run with sudo (root) priveleges.\n"
+printf "Note: This script must be placed in /usr/local/bin,\n made executable with 'sudo chmod +x trimly.sh',\n and run with sudo (root) priveleges.\n"
 printf "\n"
 
 # conditional defrag (*will not work entirely on bind mounts used on /)
@@ -23,7 +23,7 @@ printf "${YEL}You may optionally run e4defrag -v on the stateful_partition and r
 printf "\n"
 	select yn in "Yes" "No"; do
     case $yn in
-    	Yes ) printf "\n" && printf "${YEL}Defragmenting HDD...${NC}" && printf "\n" && e4defrag -v /dev/sda16 && e4defrag -v / && printf "\n ${RED}Continuing...${NC}" && printf "\n"; break;;
+    	Yes ) printf "\n" && printf "${YEL}Defragmenting HDD...${NC}" && printf "\n" && e4defrag -v / && e4defrag -v /dev/sda16 && printf "\n ${RED}Continuing...${NC}" && printf "\n"; break;;
         No ) printf "\n ${RED}Continuing...${NC}" && printf "\n"; break;;
     esac
 done
