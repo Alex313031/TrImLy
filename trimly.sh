@@ -23,7 +23,7 @@ printf "${YEL}You may optionally run e4defrag -v on the stateful_partition and r
 printf "\n"
 	select yn in "Yes" "No"; do
     case $yn in
-    	Yes ) printf "\n" && printf "${YEL}Defragmenting HDD...${NC}" && printf "\n" && e4defrag -v /var && e4defrag -v /var && printf "\n ${RED}Continuing...${NC}" && printf "\n"; break;;
+    	Yes ) printf "\n" && printf "${YEL}Defragmenting HDD...${NC}" && printf "\n" && e4defrag -v / && e4defrag -v /dev/sda1 && printf "\n ${RED}Continuing...${NC}" && printf "\n"; break;;
         No ) printf "\n ${RED}Continuing...${NC}" && printf "\n"; break;;
     esac
 done
