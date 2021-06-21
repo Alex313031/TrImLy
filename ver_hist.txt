@@ -1,20 +1,23 @@
 # TrImLy
 --Version History--
 
- 0.5 Updated partition numbers to reflect correct layouts.
+0.5.1 & 0.4.1 - Added fstrim -a -v in fromt of the other fstrim lines to make sure we don't miss anything in older or future ChromiumOS versions.
+     - Will also trim any other TRIMable drives/partitions attached to the system.
+
+ 0.5 - Updated partition numbers to reflect correct layouts.
      -Added cros_90_dev dir and moved original trimly.sh to it.
      -Code refactoring, more comments and cleanup.
 
- 0.4 Made trim conditional (this release will stay in cros_pre_90)
+ 0.4 - Made trim conditional (this release will stay in cros_pre_90)
      -Backported refactoring and comments from 0.5.
      
- 0.3 Cleaned up stuff & added coloured text and comments.
+ 0.3 - Cleaned up stuff & added coloured text and comments.
      -Thank yous and \n (new line characters) added.
 
- 0.2 Added comments, made defrag conditional. (first actual upload)
+ 0.2 - Added comments, made defrag conditional. (first actual upload)
      -Added manifest.xml for possible future use.
 
- 0.1 First release (not uploaded)
+ 0.1 - First release (not uploaded)
      -Writen on cloudready with Text and Quantum code editors from web store.
 
  ----------------------------------------------------------------
