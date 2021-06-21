@@ -2,7 +2,7 @@
 
 ## TrImLy
 # trimly.sh
-## VER. 0.4
+## VER. 0.4.1
 
 # constants (for coloring stdout)
 RED='\033[0;31m' # Red
