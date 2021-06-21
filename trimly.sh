@@ -2,7 +2,7 @@
 
 ## TrImLy
 # trimly.sh
-## VER. 0.5
+## VER. 0.5.1
 
 # constants (for coloring stdout)
 RED='\033[0;31m' # Red
@@ -35,7 +35,7 @@ printf "\n${YEL}You may now optionally run fstrim on all relevant partitions, mo
 printf "\n"
 	select yn in "Yes" "No"; do
     case $yn in
-    	Yes ) printf "\n" && printf "${YEL}TRIMming SSD...${NC}\n" && fstrim -v /mnt/stateful_partition/encrypted && fstrim -v /usr/share/oem && fstrim -v /mnt/stateful_partition && fstrim -v / && mkdir /rootfs_A && mount /dev/sda3 /rootfs_A && fstrim -v /rootfs_A && umount /dev/sda3 && mkdir /rootfs_B && mount /dev/sda5 /rootfs_B && fstrim -v /rootfs_B && umount /dev/sda5 && printf "fstrim -v completed successfully with status code 0" && printf "\n"; break;;
+    	Yes ) printf "\n" && printf "${YEL}TRIMming SSD...${NC}\n" && fstrim -a -v && fstrim -v /mnt/stateful_partition/encrypted && fstrim -v /usr/share/oem && fstrim -v /mnt/stateful_partition && fstrim -v / && mkdir /rootfs_A && mount /dev/sda3 /rootfs_A && fstrim -v /rootfs_A && umount /dev/sda3 && mkdir /rootfs_B && mount /dev/sda5 /rootfs_B && fstrim -v /rootfs_B && umount /dev/sda5 && printf "fstrim -v completed successfully with status code 0" && printf "\n"; break;;
         No ) printf "\n ${RED}Skipping TRIM...${NC}" && printf "\n"; break;;
     esac
 done
