@@ -1,4 +1,6 @@
-# TrImLy #
+# TrImLy
+<img src="https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg" width="128">
+
 __==__ __Your fstrim automator and defrag script for ChomiumOS!__ ___\*yay\*___ __==__
 
 # Function #
